@@ -38,20 +38,22 @@ is needed
 
 ---
 
-# requirements c
+# c - requirements
 
-## alarms 
+## automation
 
-- based on image processing
-    - fighting mice
- zones 
+- alarms 
+    - based on image processing
+        - fighting mice
+    - based on zones 
+
 - based on system state 
     - missing video data 
     - ...
 
 ---
 
-# requirements d
+# d - requirements
 
 ## view and export 
 
@@ -64,10 +66,9 @@ is needed
     - managment of externally generated taging data 
     - managment of externally generated results  
 
-
 ---
 
-# status a1
+# e 1 - status 
 
 ## zoneminder ~ ZM
 
@@ -85,7 +86,7 @@ is needed
 
 ---
 
-# status a2
+# e 2 - status
 
 ## zoneminder
 
@@ -104,7 +105,7 @@ is needed
 
 ---
 
-# status b1
+# e 3 - status
 
 ## frigate ~ FG
 
@@ -121,14 +122,14 @@ is needed
 
 ---
 
-# status b2
+# e 4 - status
 
 ## frigate
 
 - tbd
 
 ---
-# status c 1
+# f 1 - strategy
 
 ## business model
 
@@ -144,26 +145,34 @@ is needed
         - premium addon services as alarms ...
 
 ---
-# status c 2
+# f 2 - strategy
 
 ## business model 
 
 - more effort needed to become a 
     - data sharing platform
-    - mediator 
-    - broker 
-    - 
+    - data mediator 
+    - data broker 
+    - ...
 
 --- 
 
-# status d
+# g 1 - steps forward
 
-## current situation
-- zoneminder seems to be working better for now
+## current situation zonminder
+
+- zoneminder 
+    - seems to be working better than frigate for now
     - source for extension is available
         - works more OKish the frigate + custom extension
     - author is more responsive (sometimes) 
 
+- use zoneminder but don't invest to much    
+---
+
+# g 2 - steps forward
+
+## current situation frigate 
 
 - frigate 
     - source of extension not licensed by imouse
@@ -171,9 +180,12 @@ is needed
     - unclear how good frigate and the custom extension can be developed together in the next years
         - already given the current bad integration of postprocessed video files  
 
+- try to get license / function / cooperation issues resolved
+- deeper look technical into frigate as basis for development
+    - decide go on / no go (more likely)
 --- 
 
-# status e
+# g 3 - steps forward
 
 ## questions for the next years 
 
@@ -181,18 +193,18 @@ is needed
     - forking is possible: more freedom short term, less shared benefit long term, legacy in code and license 
 
 - how much value is in the limited/not yet working ai/ml integration of the ZM/FG
- - how much value is in the limited/badly working zone managment integration of zm/fg
+- how much value is in the limited/badly working zone managment integration of zm/fg
 
-- how limiting are the open source projects ZM/FG for the business model (tbd)
 
+- how limiting are the open source projects ZM/FG for the business model / strategy (tbd)
 
 ---
 
-# next steps  
+# g 4 - steps forward
 
 ## serverside 
 
-- use ZM/FG as is (with so far working extension) for data capture and storage
+- use ZM/FG as is (with so far working extensions / as usable) for data capture and storage
 
 - work on own limited data capture and storage system for data lineage, reliability 
  
@@ -204,9 +216,11 @@ is needed
 
 ---
 
-# next steps  
+# g 5 - steps forward
 
 ## hardware / edge 
 
-- look into edge processing for more reliabilty, reduced data, data lineage, option for premium hardware business model (can be COTS hw with closed software)
+- look into edge processing for more reliabilty, reduced data size, data lineage, options for premium hardware business model (can be COTS HW with closed software)
     - see: management of edge deployment of zones, models, .. 
+
+---
