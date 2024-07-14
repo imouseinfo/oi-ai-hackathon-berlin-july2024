@@ -2,7 +2,7 @@
 marp: true
 ---
 
-# requirements a
+# a - requirements
 
 ## capture and store
 
@@ -21,7 +21,7 @@ is needed
 
 ---
 
-# requirements b
+# b - requirements
 
 ## image processing
 
